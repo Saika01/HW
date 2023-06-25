@@ -129,3 +129,118 @@ h1 {
     width: 80px;
     font-family: 'Gilroy-Bold';
 }
+
+.features {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.features-card {
+    background: #FFF;
+    width: 370px;
+    height: 291px;
+    padding: 40px 31px 25px 30px;
+    gap: 60px;
+}
+
+.features-card img {
+    margin-bottom: 25px;
+}
+
+.features-card h3 {
+    margin-bottom: 17px;
+    color: #000;
+    font-size: 24px;
+}
+
+.features-card-parag {
+    margin-bottom: 25px;
+    color: #666;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.features-card-shadow {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.features-card-readmore {
+    color: #000;
+    font-size: 11px;
+    line-height: 150%;
+}
+
+.benefits {
+    background: #FAFAFA;
+    padding: 100px;  /* Странно работает: если поставить padding: 100px auto;, не работает совсем */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits h2 {
+    color: #000;
+    font-size: 45px;
+    margin-bottom: 49px;
+}
+
+.benefits-parag {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+    width: 682px;
+    margin-bottom: 50px;
+}
+
+.benefits-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.benefits-card {
+    background: #FFF;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.benefits-card-shadow {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.benefits-card h3 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+
+.benefits-card p {
+    color: #AAA;
+    text-align: center;
+    font-size: 15px;
+    line-height: 150%;
+    margin-bottom: 39px;
+    width: 310px;
+}
+
+.benefits-card button {
+    padding: 15px 46px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+}
+
+.benefits-card-arrow {
+    margin-left: 6px;
+}
